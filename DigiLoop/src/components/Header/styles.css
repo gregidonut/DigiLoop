@@ -1,0 +1,77 @@
+ul {
+    list-style: none;
+}
+
+header {
+    background: #006ce9;
+    width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        width: 76.8rem
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        width: 120rem
+    }
+}
+
+header nav h1 a{
+    /*text-decoration: none;*/
+
+    color: white;
+}
+
+header nav h1 a:hover {
+    /*background: pink;*/
+    text-decoration: underline;
+    text-decoration-thickness: .4rem;
+    text-decoration: white;
+    text-decoration-style: solid;
+}
+header nav h1 a:active {
+    color: #a86565;
+}
+
+header nav ul li a{
+    text-decoration: none;
+
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: .4rem;
+    text-decoration: white;
+    text-decoration-style: solid;
+}
+
+header nav ul li a:active{
+    color: #a86565;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    header nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,18 @@
+main {
+    /*background: pink;*/
+    width: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 76.8rem
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 120rem
+    }
+}
