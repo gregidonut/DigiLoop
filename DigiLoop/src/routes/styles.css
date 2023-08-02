@@ -16,3 +16,23 @@ main {
         width: 120rem
     }
 }
+
+p.short-description {
+    border: #9771fa solid 1rem;
+    background: #9771fa;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    p.short-description {
+        margin: 0 3rem
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    p.short-description {
+        width: 60rem;
+        margin-top: 3rem
+    }
+}
